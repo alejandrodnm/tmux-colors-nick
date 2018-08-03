@@ -21,10 +21,10 @@ else if application "Spotify" is running then
         set theState to "(p)"
       end if
       if theState is equal to "playing" then
-        set theState to ""
+        set theState to "♫ "
       end if
       try
-        return theState & " " & theName & " - " & theArtist
+        return theState & " " & theName & " - " & theArtist & " - " & theAlbum
       on error err
       end try
     end tell
