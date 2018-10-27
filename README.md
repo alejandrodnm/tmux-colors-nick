@@ -5,6 +5,6 @@ A theme for tmux, mostly stolen from @nicknisi's [dotfiles](https://github.com/n
 
 Add plugin to the list of TPM plugins in `.tmux.conf`:
 
-    set -g @plugin 'pierreprinetti/tmux-colors-nick'
+    set -g @plugin 'alejandrodnm/tmux-colors-nick'
 
 Hit `prefix + I` to fetch the plugin and source it.
